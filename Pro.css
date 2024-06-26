@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+  background-color: snow;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  color: snow;
+  background: darkblue;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 15px;
+  letter-spacing: 3px;
+  text-shadow: 0px 1px 0px white, 0px 5px 0px rgb(15, 15, 15),
+    0px 6px 0px rgb(12, 12, 12), 0px 7px 0px rgb(11, 11, 11);
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.8);
+  inset: 4px 4px 10px white;
+}
+#navbarNavDropdown a {
+  color: black;
+  border-bottom: 5px solid transparent;
+  background-color: rgb(254, 255, 255);
+}
+#navbarNavDropdown a:hover {
+  border-color: black;
+  color: blue;
+}
+
+#navbarNavDropdown button {
+  background-color: rgb(248, 248, 248);
+  width: 12rem;
+  border-radius: 15px;
+  color: rgb(13, 13, 13);
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3);
+  inset: 4px 10px darkgray;
+  font-size: 25px;
+  font-weight: bolder;
+  border-color: snow;
+}
+#navbarNavDropdown button:hover {
+  background-color: green;
+}
+section {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+}
+#books {
+  background-image: url("picture 1.png");
+  background-size: cover;
+  background-position: center;
+}
+#books h1 {
+  font-size: 60px;
+  color: white;
+  letter-spacing: 3px;
+  text-shadow: 0px 1px 0px white, 0px 2px 0px white, 0px 3px 0px white,
+    0px 4px 0px white, 0px 5px 0px rgb(15, 15, 15), 0px 6px 0px rgb(12, 12, 12),
+    0px 7px 0px rgb(11, 11, 11);
+  margin-top: 270px;
+  margin-left: 15px;
+}
+#books p {
+  font-size: 18px;
+  color: aliceblue;
+  text-shadow: 0px 1px 0px rgb(17, 16, 16), 0px 1px 0px rgb(17, 16, 16),
+    0px 1px 0px rgb(17, 16, 16);
+}
+.btnc {
+  margin: 0;
+  width: 300px;
+  background-color: blue;
+  color: snow;
+  font-size: 25px;
+  margin-top: 10px;
+  border-radius: 40px;
+  padding: 10px;
+  border-color: snow;
+}
+#books .input-group {
+  width: 40%;
+  height: 45%;
+}
+.btn-primary {
+  color: aliceblue important;
+}
+#books .btn-primary {
+  background-color: darkblue;
+  color: white;
+}
+#statue {
+  background-color: snow;
+}
+#statue h1 {
+  color: black;
+  font-size: 70px;
+  text-align: center;
+  justify-content: center;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-shadow: 0px 1px 0px white, 0px 2px 0px rgb(13, 2, 2),
+    0px 3px 0px rgb(239, 237, 237), 0px 4px 0px rgb(26, 26, 26);
+  margin-left: 402px;
+}
+#hit {
+  margin-left: 100px;
+}
+#rain {
+  margin-left: 165px;
+}
+#raina {
+  margin-top: 15px;
+  margin-left: 165px;
+}
+#statue p {
+  color: snow;
+}
+
+#statue #hit {
+  background-image: url("picture 2.png");
+  background-size: 320px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  color: snow;
+  margin-left: 255px;
+}
+#statue #rain {
+  background-image: url("picture3.png");
+  background-size: 450px;
+  background-repeat: no-repeat;
+  color: azure;
+  background-position-x: center;
+  background-position-y: left;
+}
+#statue #raina {
+  background-image: url("picture\ 4.png");
+  background-size: 390px;
+  background-repeat: no-repeat;
+  color: black;
+}
+#statue #hit h2 {
+  margin-left: 100px;
+  font-style: bold;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 0px 0.5px 0px white, 0px 2px 0px rgb(12, 12, 12);
+}
+#statue #hit h4 {
+  margin-left: 75px;
+}
+#statue #hit h5 {
+  margin-left: 55px;
+  margin-bottom: 185px;
+}
+#statue #rain h2 {
+  margin-left: 190px;
+  text-shadow: 0px 0.5px 0px white, 0px 2px 0px rgb(12, 12, 12);
+}
+#statue #rain h4 {
+  margin-left: 190px;
+}
+#statue #rain h5 {
+  margin-left: 210px;
+}
+#statue #raina h2 {
+  margin-right: 155px;
+  text-shadow: 0px 1px 0px rgb(18, 17, 17), 0px 2px 0px rgb(9, 9, 9);
+}
+#statue #raina h5 {
+  margin-right: 195px;
+}
+#statue #raina h4 {
+  margin-right: 215px;
+}
+#cmp {
+  background: snow;
+}
+#cmp h1 {
+  color: rgb(21, 20, 20);
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: 900;
+  text-shadow: 0px 1px 0px white, 0px 2px 0px white, 0px 3px 0px rgb(16, 15, 15),
+    0px 4px 0px rgb(6, 6, 6), 0px 4px 0px rgb(6, 1, 1);
+}
+#cmp img {
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 500px;
+  height: 530px;
+  background-color: #e5e5e5 !important;
+  border: none !important;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.8);
+  inset: 4px 4px 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover {
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.8);
+  inset: -4px -4px 10px white;
+}
+
+.btn-primary {
+  padding: 2px;
+  background-color: darkblue;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.form-control {
+  text-align: center;
+}
+#cmp p {
+  font-size: 18px;
+  color: aliceblue;
+  text-shadow: 0px 1px 0px rgb(17, 16, 16), 0px 1px 0px rgb(17, 16, 16),
+    0px 1px 0px rgb(17, 16, 16);
+  text-align: center;
+}
+
+#cmp #icon {
+  color: rgb(3, 3, 3);
+  font-size: 50px;
+  margin-left: 5px;
+}
+#cmp .column {
+  float: left;
+  width: 25.33%;
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+/*#cmp .grid {
+  display: table;
+
+  margin-left: 55px;
+}
+/*#cmp #payment h2 {
+  position: absolute;
+  display: grid;
+  margin-left: 155px;
+}
+#cmp #payment .bi-shield-check {
+  color: rgb(11, 11, 11);
+  margin-left: 55px;
+}
+#cmp h2 {
+  margin-left: 55px;
+}*/
+.shoe {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+}
+
+#strip shoe {
+  background-image: url("picture5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#strip {
+  margin-left: 5px;
+}
